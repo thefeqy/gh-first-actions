@@ -1,0 +1,11 @@
+name: First Action
+on: workflow_run
+jobs:
+  first-job:
+    name: Our first job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Hello world!
+        run: echo "Hello world"
+      - name: Echo Goodbuy
+        run: echo "Done! buy"
